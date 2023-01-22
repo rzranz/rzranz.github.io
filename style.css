@@ -1,0 +1,194 @@
+.banner {
+  background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg")
+    no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 30%;
+  color: #fff;
+}
+
+.body {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url('assets/header-banner.jpg') center/cover no-repeat fixed;
+}
+
+.header{
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url('assets/header-banner.jpg') center/cover no-repeat fixed;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+#header .container{
+  width: 100%;
+}
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+
+.crop-img {
+  object-fit: cover;
+}
+
+/* .social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #333;
+  line-height: 40px;
+} */
+
+.client img {
+  height: auto;
+  max-height: 50px;
+}
+
+.social {
+  background: url("insta-pic.jpg") no-repeat
+    center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color:transparent;
+}
+
+/* .Gallery {
+  
+  padding-bottom: 20%;
+  padding-top: 20%;
+  display: flex;
+  flex-wrap: 1;
+} */
+
+.home {
+  background: url("assets/insta-pic.jpg") no-repeat
+    center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #fff;
+}
+
+
+
+.contgal {
+  width: 300px;
+  border: 2px solid #fff;
+  background-color: rgba(20, 20, 20, 0.5);
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+
+.gallery {
+  transform: scale(1);
+  transition: all 0,3s ease-out;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.img-title {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5, 5, 5, 0,7);
+  top: 300px;
+  transition: all 0.5 ease-in;
+}
+
+.img-title {
+  text-align: center;
+  color: #fff;
+  line-height: 2px;
+  position: relative;
+  top: 130px;
+  text-shadow: 1px;
+  text-shadow: rgba(5, 5, 5, 0.5);
+}
+
+.card:hover .img-title{
+  top: 0;
+  transition: all 0.5s ease-out;
+}
+
+/* work */
+#work{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url() center/cover no-repeat fixed;
+  color: var(--light-color);
+}
+#work .title h2, #work h3{
+  color: var(--light-color);
+}
+#work .title h2::after{
+  background: var(--light-color);
+}
+.work-bottom{
+  margin-top: 4rem;
+  text-align: center;
+}
+.work-bottom > div .icon img{
+  width: 50px;
+  margin: 0 auto 1.7rem auto;
+}
+
+/* portfolio */
+.portfolio-grid > div{
+  transition: var(--transition);
+  background-color: transparent;
+}
+.portfolio-grid > div:hover{
+  transform: scale(0.9);
+}
+
+.social-links{
+  display: flex;
+  margin-top: 3.5rem;
+}
+.social-links li a{
+  width: 50px;
+  height: 50px;
+  background-color: var(--light-color);
+  margin-right: 1rem;
+  border-radius: .3rem;
+  box-shadow: 0 0 6px 5px rgba(0, 0, 0, 0.2);
+  transition: var(--transition);
+}
+.social-links li a:hover{
+  opacity: 0.9;
+}
+
+.div container text-center pt-5 pb-5 {
+  background-color: black;
+}
+/* .galery {
+  background-color: transparent;
+} */
+
+.social social-links {
+  background-color: transparent;
+}
+/* .social {
+  background-color: ;} */
+
+  .footer {
+    background-color: black;
+  }
